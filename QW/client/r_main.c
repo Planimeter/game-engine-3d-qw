@@ -980,11 +980,13 @@ SetVisibilityByPassages ();
 	R_MarkLeaves ();	// done here so we know if we're in water
 #endif
 
+#ifndef _WIN64
 // make FDIV fast. This reduces timing precision after we've been running for a
 // while, so we don't do it globally.  This also sets chop mode, and we do it
 // here so that setup stuff like the refresh area calculations match what's
 // done in screen.c
 	Sys_LowFPPrecision ();
+#endif
 
 	if (!r_worldentity.model || !cl.worldmodel)
 		Sys_Error ("R_RenderView: NULL worldmodel");
@@ -1061,8 +1063,10 @@ SetVisibilityByPassages ();
 	if (r_reportedgeout.value && r_outofedges)
 		Con_Printf ("Short roughly %d edges\n", r_outofedges * 2 / 3);
 
-// back to high floating-point precision
+#ifndef _WIN64
+	// back to high floating-point precision
 	Sys_HighFPPrecision ();
+#endif
 }
 
 void R_RenderView (void)
