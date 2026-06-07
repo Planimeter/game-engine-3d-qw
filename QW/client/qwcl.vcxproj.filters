@@ -246,6 +246,9 @@
     <ClCompile Include="zone.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="gl_vidsdl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="winquake.rc">
@@ -380,6 +383,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="zone.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sdlquake.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

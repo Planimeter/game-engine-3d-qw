@@ -183,7 +183,7 @@
       <Optimization>Disabled</Optimization>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
-      <AdditionalIncludeDirectories>..\dxsdk\sdk\inc;..\scitech\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\dxsdk\sdk\inc;..\scitech\include;..\SDL3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;GLQUAKE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AssemblerListingLocation>.\GLDebug\</AssemblerListingLocation>
       <BrowseInformation>true</BrowseInformation>
@@ -224,7 +224,7 @@
       <Optimization>Disabled</Optimization>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <AdditionalIncludeDirectories>..\dxsdk\sdk\inc;..\scitech\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\dxsdk\sdk\inc;..\scitech\include;..\SDL3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;GLQUAKE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AssemblerListingLocation>.\GLDebug\</AssemblerListingLocation>
       <BrowseInformation>true</BrowseInformation>
@@ -264,7 +264,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <Optimization>MaxSpeed</Optimization>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <AdditionalIncludeDirectories>..\dxsdk\sdk\inc;..\scitech\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\dxsdk\sdk\inc;..\scitech\include;..\SDL3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AssemblerListingLocation>.\Release\</AssemblerListingLocation>
       <BrowseInformation>true</BrowseInformation>
@@ -306,7 +306,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <Optimization>MaxSpeed</Optimization>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <AdditionalIncludeDirectories>..\dxsdk\sdk\inc;..\scitech\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\dxsdk\sdk\inc;..\scitech\include;..\SDL3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AssemblerListingLocation>.\Release\</AssemblerListingLocation>
       <BrowseInformation>true</BrowseInformation>
@@ -333,7 +333,7 @@
       <SubSystem>Windows</SubSystem>
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
       <OutputFile>.\Release\qwcl.exe</OutputFile>
-      <AdditionalDependencies>..\scitech\lib\win32\vc\mgllt.lib;..\dxsdk\sdk\lib\dxguid.lib;opengl32.lib;wsock32.lib;odbc32.lib;odbccp32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>opengl32.lib;wsock32.lib;odbc32.lib;odbccp32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <IgnoreSpecificDefaultLibraries>libc.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
       <DataExecutionPrevention>false</DataExecutionPrevention>
@@ -348,7 +348,7 @@
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <MinimalRebuild>true</MinimalRebuild>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
-      <AdditionalIncludeDirectories>..\dxsdk\sdk\inc;..\scitech\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\dxsdk\sdk\inc;..\scitech\include;..\SDL3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AssemblerListingLocation>.\Debug\</AssemblerListingLocation>
       <BrowseInformation>true</BrowseInformation>
@@ -391,7 +391,7 @@
       <Optimization>Disabled</Optimization>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <AdditionalIncludeDirectories>..\dxsdk\sdk\inc;..\scitech\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\dxsdk\sdk\inc;..\scitech\include;..\SDL3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AssemblerListingLocation>.\Debug\</AssemblerListingLocation>
       <BrowseInformation>true</BrowseInformation>
@@ -433,7 +433,7 @@
       <Optimization>Disabled</Optimization>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
-      <AdditionalIncludeDirectories>..\dxsdk\sdk\inc;..\scitech\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\dxsdk\sdk\inc;..\scitech\include;..\SDL3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;GLQUAKE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AssemblerListingLocation>.\GLRelease\</AssemblerListingLocation>
       <PrecompiledHeaderOutputFile>.\GLRelease\qwcl.pch</PrecompiledHeaderOutputFile>
@@ -473,7 +473,7 @@
       <Optimization>Disabled</Optimization>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
-      <AdditionalIncludeDirectories>..\dxsdk\sdk\inc;..\scitech\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\dxsdk\sdk\inc;..\scitech\include;..\SDL3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;GLQUAKE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AssemblerListingLocation>.\GLRelease\</AssemblerListingLocation>
       <PrecompiledHeaderOutputFile>.\GLRelease\qwcl.pch</PrecompiledHeaderOutputFile>
@@ -499,7 +499,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
-      <OutputFile>.\GLRelease\glqwcl.exe</OutputFile>
+      <OutputFile>..\x64\GLRelease\glqwcl.exe</OutputFile>
       <AdditionalDependencies>comctl32.lib;glu32.lib;..\dxsdk\sdk\lib\dxguid.lib;opengl32.lib;wsock32.lib;odbc32.lib;odbccp32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -668,6 +668,16 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLDebug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLRelease|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="gl_vidsdl.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLRelease|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLDebug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="gl_warp.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
@@ -788,6 +798,8 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLDebug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLRelease|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLRelease|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="view.c" />
     <ClCompile Include="wad.c" />
@@ -822,6 +834,7 @@ del $(OutDir)%(Filename).spp </Command>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLRelease|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLRelease|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </CustomBuild>
     <CustomBuild Include="d_draw16.s">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLDebug|Win32'">true</ExcludedFromBuild>
@@ -851,6 +864,7 @@ del $(OutDir)%(Filename).spp </Command>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLRelease|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLRelease|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </CustomBuild>
     <CustomBuild Include="d_parta.s">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLDebug|Win32'">true</ExcludedFromBuild>
@@ -880,6 +894,7 @@ del $(OutDir)%(Filename).spp </Command>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLRelease|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLRelease|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </CustomBuild>
     <CustomBuild Include="d_polysa.s">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLDebug|Win32'">true</ExcludedFromBuild>
@@ -909,6 +924,7 @@ del $(OutDir)%(Filename).spp </Command>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLRelease|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLRelease|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </CustomBuild>
     <CustomBuild Include="d_scana.s">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLDebug|Win32'">true</ExcludedFromBuild>
@@ -938,6 +954,7 @@ del $(OutDir)%(Filename).spp </Command>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLRelease|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLRelease|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </CustomBuild>
     <CustomBuild Include="d_spr8.s">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLDebug|Win32'">true</ExcludedFromBuild>
@@ -967,6 +984,7 @@ del $(OutDir)%(Filename).spp </Command>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLRelease|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLRelease|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </CustomBuild>
     <CustomBuild Include="d_varsa.s">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLDebug|Win32'">true</ExcludedFromBuild>
@@ -996,6 +1014,7 @@ del $(OutDir)%(Filename).spp </Command>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLRelease|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLRelease|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </CustomBuild>
     <CustomBuild Include="math.s">
       <Command Condition="'$(Configuration)|$(Platform)'=='GLDebug|Win32'">cl /EP /DGLQUAKE &gt; $(OutDir)%(Filename).spp %(FullPath)
@@ -1042,6 +1061,8 @@ del $(OutDir)%(Filename).spp </Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='GLRelease|x64'">$(OUTDIR)%(Filename).obj;%(Outputs)</Outputs>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLDebug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLRelease|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </CustomBuild>
     <CustomBuild Include="r_aclipa.s">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLDebug|Win32'">true</ExcludedFromBuild>
@@ -1071,6 +1092,7 @@ del $(OutDir)%(Filename).spp </Command>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLRelease|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLRelease|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </CustomBuild>
     <CustomBuild Include="r_aliasa.s">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLDebug|Win32'">true</ExcludedFromBuild>
@@ -1100,6 +1122,7 @@ del $(OutDir)%(Filename).spp </Command>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLRelease|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLRelease|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </CustomBuild>
     <CustomBuild Include="r_drawa.s">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLDebug|Win32'">true</ExcludedFromBuild>
@@ -1129,6 +1152,7 @@ del $(OutDir)%(Filename).spp </Command>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLRelease|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLRelease|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </CustomBuild>
     <CustomBuild Include="r_edgea.s">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLDebug|Win32'">true</ExcludedFromBuild>
@@ -1158,6 +1182,7 @@ del $(OutDir)%(Filename).spp </Command>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLRelease|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLRelease|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </CustomBuild>
     <CustomBuild Include="r_varsa.s">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLDebug|Win32'">true</ExcludedFromBuild>
@@ -1187,6 +1212,7 @@ del $(OutDir)%(Filename).spp </Command>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLRelease|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLRelease|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </CustomBuild>
     <CustomBuild Include="snd_mixa.s">
       <Command Condition="'$(Configuration)|$(Platform)'=='GLDebug|Win32'">cl /EP /DGLQUAKE &gt; $(OutDir)%(Filename).spp %(FullPath)
@@ -1233,6 +1259,8 @@ del $(OutDir)%(Filename).spp </Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='GLRelease|x64'">$(OUTDIR)%(Filename).obj;%(Outputs)</Outputs>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLDebug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLRelease|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </CustomBuild>
     <CustomBuild Include="surf16.s">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLDebug|Win32'">true</ExcludedFromBuild>
@@ -1262,6 +1290,7 @@ del $(OutDir)%(Filename).spp </Command>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLRelease|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLRelease|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </CustomBuild>
     <CustomBuild Include="surf8.s">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLDebug|Win32'">true</ExcludedFromBuild>
@@ -1291,6 +1320,7 @@ del $(OutDir)%(Filename).spp </Command>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLRelease|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLRelease|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </CustomBuild>
     <CustomBuild Include="sys_wina.s">
       <Command Condition="'$(Configuration)|$(Platform)'=='GLDebug|Win32'">cl /EP /DGLQUAKE &gt; $(OutDir)%(Filename).spp %(FullPath)
@@ -1337,6 +1367,8 @@ del $(OutDir)%(Filename).spp </Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='GLRelease|x64'">$(OUTDIR)%(Filename).obj;%(Outputs)</Outputs>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLDebug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='GLRelease|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -1393,6 +1425,7 @@ del $(OutDir)%(Filename).spp </Command>
     <ClInclude Include="r_shared.h" />
     <ClInclude Include="sbar.h" />
     <ClInclude Include="screen.h" />
+    <ClInclude Include="sdlquake.h" />
     <ClInclude Include="sound.h" />
     <ClInclude Include="spritegn.h" />
     <ClInclude Include="sys.h" />
@@ -1411,6 +1444,9 @@ del $(OutDir)%(Filename).spp </Command>
     <ProjectReference Include="..\gas2masm\gas2masm.vcxproj">
       <Project>{2696cea7-8fc9-45b7-bede-53ab4e77c598}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\SDL3\VisualC\SDL\SDL.vcxproj">
+      <Project>{81ce8daf-ebb2-4761-8e45-b71abcca8c68}</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
