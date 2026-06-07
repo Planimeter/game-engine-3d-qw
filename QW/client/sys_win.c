@@ -147,6 +147,26 @@ void Sys_MakeCodeWriteable (unsigned long startaddr, unsigned long length)
 }
 
 
+#ifndef _M_IX86
+
+void Sys_SetFPCW (void)
+{
+}
+
+void Sys_PushFPCW_SetHigh (void)
+{
+}
+
+void Sys_PopFPCW (void)
+{
+}
+
+void MaskExceptions (void)
+{
+}
+
+#endif
+
 /*
 ================
 Sys_Init
@@ -695,4 +715,3 @@ int WINAPI WinMain (HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLin
     /* return success of application */
     return TRUE;
 }
-
